@@ -11,7 +11,7 @@ public class App
         System.out.println( getSaudacao() );
     }
 
-	private static String getSaudacao() {
-		return "Hello World!";
+	static String getSaudacao() {
+		return "Olá, mundo!";
 	}
 }
