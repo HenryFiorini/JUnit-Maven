@@ -12,5 +12,12 @@ public class AppTest_JUnit4 {
 		String expected = "Olá, mundo";
 		String actual = App.getSaudacao();
 		assertEquals(expected, actual);
-	}	
+	}
+
+	public void testGetSaudacaoIniciaComO() {
+
+		String actual = App.getSaudacao();
+		assertTrue(actual.startsWith("O"));
+	}
+
 }
